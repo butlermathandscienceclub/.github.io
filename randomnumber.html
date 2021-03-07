@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Butler Math and Science Club-Random Numbers</title>
+      <meta charset="UTF-8">
+      <meta name="keywords" content="Butler, Math, Science, Club">
+      <meta name="author" content="Kellan Butler">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="style.css" rel="stylesheet">
+   </head>
+   <body>
+   <div class="topnav">
+   <nav><a href="index.html">Home</a></nav>
+   </div>
+   <h1>Random Number Generator</h1>
+   <p>Butler Math and Science Club has a random number genorator for absolutley no reason</p>
+   <button onclick="document.getElementById('demo').innerHTML = getRndInteger(0,100)">Click Here for Your Random Number Between 1 and 100</button>
+   
+   <p id="demo"></p>
+   
+   <script>
+   function getRndInteger(min, max) {
+   return Math.floor(Math.random() * (max - min)) + min;
+   }
+   </script>
+   <button onclick="document.getElementById('demo2').innerHTML = getRndInteger(0,10)">Click Here for Your Random Number Between 1 and 10</button>
+   
+   <p id="demo2"></p>
+   
+   <script>
+   function getRndInteger(min, max) {
+   return Math.floor(Math.random() * (max - min)) + min;
+   }
+   </script>
+   </body>
+   </html>
