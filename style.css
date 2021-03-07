@@ -1,0 +1,22 @@
+p {font-family:Arial,Verdana,Helvetica;
+font-size:20px;
+}
+aside{width: 35%;
+      padding-left: 15px;
+      margin-left: 15px;
+      float: right;
+      font-style: italic;
+      background-color: lightgray;}
+body{background-color: hsl(271, 80%, 76%);
+}
+.topnav a {
+  float: center;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
