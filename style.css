@@ -20,3 +20,21 @@ body{background-color: hsl(271, 80%, 76%);
   background-color: white;
   color: black;
 }
+h1{font-family:Arial,Verdana,Helvetica;
+font-size:40px;
+}
+h2{font-family:Arial,Verdana,Helvetica;
+font-size:35px;
+}
+h3{font-family:Arial,Verdana,Helvetica;
+font-size:30px;
+}
+h4{font-family:Arial,Verdana,Helvetica;
+font-size:27px;
+}
+h5{font-family:Arial,Verdana,Helvetica;
+font-size:25px;
+}
+h6{font-family:Arial,Verdana,Helvetica;
+font-size:23px;
+}
